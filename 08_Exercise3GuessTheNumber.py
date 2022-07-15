@@ -18,10 +18,10 @@ while guess >= 1:
             print("The correct Ans was :", n)
         else:
             if n > num:
-                print("Wrong! The number is greater than ", n)
+                print("Wrong! The number is greater than ", num)
                 print(guess, "attempts remaining\n")
                 attempt = attempt + 1
             else:
-                print("Wrong! The number is less than ", n)
+                print("Wrong! The number is less than ", num)
                 print(guess, "attempts remaining\n")
                 attempt = attempt + 1
